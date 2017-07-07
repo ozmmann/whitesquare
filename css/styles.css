@@ -299,4 +299,123 @@ div.heading-bar h3 {
 .footer {
 	background-color: #7e7e7e;
 	padding: 15px 0; 
+	color: #dbdbdb;
+	font-family: Tahoma, sans-serif;
+}
+
+.footer .last {
+	text-align: right;
+}
+
+.footer-header {
+	color: #fff;
+	font-size: 14px;
+	line-height: 25px;
+	text-transform: uppercase;
+	border-bottom: 1px solid #919191;
+	font-family: Oswald, sans-serif;
+	margin-bottom: 10px;
+
+}
+
+.twitter-feed .twitter-date {
+	color: #b4aeae;
+	font-size: 11px;
+	border-bottom: 1px solid #a19d9d;
+	display: inline-block;
+	padding-bottom: 3px;
+}
+
+.twitter-feed .twitter-content {
+	line-height: 14px;
+	margin-top: 5px;
+    max-height: 56px;
+    overflow: hidden;
+}
+
+.sitemap {
+	margin-left: -10px;
+    margin-right: -10px;
+}
+
+.sitemap li {
+	margin-bottom: 10px;
+}
+
+.sitemap a {
+	text-decoration: none;
+	color: #dbdbdb;
+	font-size: 12px;
+}
+.footer-logo {
+	padding: 20px 0;
+}
+.copyright {
+	font-size: 10px;
+}
+
+.icon {
+	background-image: url(../img/social-sprite.png);
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	background-position-y: 0; 
+
+}
+
+.icon-small {
+	background-image: url(../img/social-sprite.png);
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	background-position-y: 70px; 
+}
+
+.icon-twitter {
+	background-position-x: 0; 
+}
+
+.icon-fb {
+	background-position-x: -40px; 
+}
+
+.icon-g {
+	background-position-x: -80px; 
+}
+
+.icon-vimeo {
+	background-position-x: 0;
+
+}
+
+.icon-youtube {
+	background-position-x: -24px; 
+}
+
+.icon-pinterest {
+	background-position-x: -47px; 
+}
+
+.icon-instagram {
+	background-position-x: -71px; 
+}
+
+.icon-feed {
+	background-position-x: -94px; 
+}
+
+.social-big, .social-small {
+	font-size: 0;
+}
+
+.social-big {
+	margin-bottom: 8px;
+}
+
+.social-big .icon {
+	margin-right: 10px;
+}
+
+.social-small .icon-small {
+	margin-right: 7px; 
 }
